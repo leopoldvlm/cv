@@ -5,6 +5,7 @@ export default component$(() => {
   const links = [
     { href: '#home', text: 'Accueil' },
     { href: '#about', text: 'A propos' },
+    { href: '#formations', text: 'Formations'},
     { href: '#projects', text: 'Projets' },
     { href: '#competences', text: 'Compétences' },
     { href: '#contact', text: 'Contact' },
@@ -15,7 +16,7 @@ export default component$(() => {
       <div class="p-3 flex flex-row w-full">
         <nav class="flex flex-row justify-evenly w-1/2 ml-auto">
           {links.map(data => (
-            <Link href={data.href} text={data.text} newTab={false} />
+            <Link key={data.href} href={data.href} text={data.text} newTab={false} />
           ))}
         </nav>
         <div class="aspect-square w-5"></div>
