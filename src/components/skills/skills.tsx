@@ -22,7 +22,7 @@ export const SkillCard = component$(
       <div class="bg-[url('/about-blur.svg')] aspect-[960/540] bg-center bg-cover bg-no-repeat w-1/5 h-[70vh] rounded-xl mx-2 hover:flex-grow transition-all duration-300 group">
         <div class="h-full w-full p-8">
           <div class="group-hover:hidden text-xl">{props.category}</div>
-          <div class="hidden group-hover:flex flex-wrap transition-all duration-300 ease-in justify-around h-fit my-auto">
+          <div class="hidden group-hover:flex flex-wrap transition-all duration-300 ease-in justify-around items-center h-full my-auto">
             {props.skills.map(skill => (
               <div key={skill.name} class="w-40 h-40 xl:w-52 xl:h-52">
                 <h2 class="text-xl text-center">{skill.name}</h2>
