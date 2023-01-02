@@ -7,7 +7,7 @@ export default component$(() => {
         class={
           "bg-gradient-to-r from-[#a5f3fc] via-blue-300 to-blue-400 w-[90vw] h-[80vh] mx-auto mt-auto rounded-xl flex flex-col"
         }>
-        <p class={'text-5xl p-20 font-urbanist'}>
+        <p class={'text-5xl p-20'}>
           Bonjour!
           <br /> Je m'appelle Léopold et je suis en 2<sup>ème</sup> année de BUT
           informatique.

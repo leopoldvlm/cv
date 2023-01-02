@@ -25,7 +25,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: 'description',
-      content: 'Mon CV',
+      content: 'CV de Léopold Varlamoff',
     },
   ]
 };
