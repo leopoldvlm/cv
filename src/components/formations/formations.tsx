@@ -20,7 +20,7 @@ export default component$(() => {
       diplome: 'BUT Informatique',
       date: '2021-2024',
       img: 'iut.jpg',
-      location: 'IUT de Lille, site de V d\'A'
+      location: 'IUT de Lille, site de Villeneuve d\'Ascq'
     }
   ];
 
