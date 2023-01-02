@@ -12,8 +12,8 @@ export interface Project {
 }
 
 export enum RepoHost {
-  github = 'github-mark-white.svg',
-  gitlab = 'gitlab-logo-600.svg',
+  github = 'projects/github-mark-white.svg',
+  gitlab = 'projects/gitlab-logo-600.svg',
 }
 
 export default component$(() => {

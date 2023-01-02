@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "qwik-project-name",
-  "short_name": "Welcome to Qwik",
-  "start_url": ".",
+  "name": "Léopold Varlamoff - CV numérique",
+  "short_name": "CV numérique",
+  "start_url": "https://leopoldvlm.fr/cv",
   "display": "standalone",
-  "background_color": "#fff",
-  "description": "A Qwik project app."
+  "background_color": "#171717",
+  "description": "Mon CV numérique avec rubrique à propos, formations, compétences, projets et contact"
 }
