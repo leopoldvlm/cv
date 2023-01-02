@@ -19,7 +19,7 @@ export default component$(() => {
 export const SkillCard = component$(
   (props: { category: string; skills: Array<Skill> }) => {
     return (
-      <div class="bg-[url('/about-blur.svg')] aspect-[960/540] bg-center bg-cover bg-no-repeat w-1/5 h-[70vh] rounded-xl mx-2 hover:flex-grow transition-all duration-300 group">
+      <div class="bg-gradient-to-r from-[#ffe4e6] to-[#d3f8ef] w-1/5 h-[70vh] rounded-xl mx-2 hover:flex-grow transition-all duration-300 group">
         <div class="h-full w-full p-8">
           <div class="group-hover:hidden text-xl">{props.category}</div>
           <div class="hidden group-hover:flex flex-wrap transition-all duration-300 ease-in justify-around items-center h-full my-auto">

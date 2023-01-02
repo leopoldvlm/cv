@@ -6,7 +6,7 @@ export default component$((props: { project: Project }) => {
     <div
       id={props.project.id}
       class="shrink-0 my-auto bg-gradient-to-r from-blue-200 to-cyan-200 rounded-xl text-black mx-96 w-1/2 h-[87.5%] snap-center p-8 flex flex-row">
-      <a href={`#${props.project.previous}`} class=" items-center">
+      <a href={`#${props.project.previous}`} class="inline-block h-fit">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -22,11 +22,11 @@ export default component$((props: { project: Project }) => {
         </svg>
       </a>
       <div class="flex flex-col flex-1">
-        <h2 class="text-xl text-center mb-3 underline">{props.project.name}</h2>
+        <h2 class="text-xl text-center mb-3 underline font-bold">{props.project.name}</h2>
         <div class="flex flex-row justify-between content-between flex-nowrap text-center w-3/4 mx-auto mb-3">
           <p>{props.project.date}</p>
           <p>{props.project.language}</p>
-          <a href={props.project.link}>
+          <a href={props.project.link} class="regular-link">
             Repo:{' '}
             <img
               src={props.project.svg}
@@ -44,7 +44,7 @@ export default component$((props: { project: Project }) => {
           />
         </div>
       </div>
-      <a href={`#${props.project.next}`}>
+      <a href={`#${props.project.next}`} class="inline-block h-fit">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

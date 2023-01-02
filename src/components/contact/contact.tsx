@@ -56,13 +56,13 @@ export default component$(() => {
 
 export const Contact = component$((props: { contact: ContactMedium }) => {
   return (
-    <div class=" text-black bg-gradient-to-r from-sky-400 to-cyan-300 aspect-square w-[12.25%] h-1/2 p-8 rounded-lg">
-      <a href={props.contact.link} class=" w-full h-full">
+    <div class=" text-black bg-gradient-to-r from-sky-400 to-cyan-300 aspect-square w-[12.25%] h-1/2 p-8 rounded-lg grid place-items-center">
+      <a href={props.contact.link} class=" w-full h-fit" target="_blank" referrerPolicy="same-origin">
         <h2 class="text-center">{`${props.contact.name} :`}</h2>
         <img
           src={props.contact.img}
           alt={`pic for ${props.contact.name} contact`}
-          class="h-2/3 w-2/3 m-auto mt-3"
+          class="h-20 w-20 m-auto mt-3"
         />
       </a>
     </div>

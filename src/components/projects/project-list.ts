@@ -49,7 +49,7 @@ export const projects: Array<Project> = [
     language: 'Typescript',
     description:
       "Réalisation d'une CV numérique dans le cadre du projet de portfolio de la formation. Utilisation du framework Qwik avec Typescript et TailwindCSS",
-    pic: '',
+    pic: 'projects/cv.png',
     link: 'https://github.com/leopoldvlm/cv',
     svg: RepoHost.github,
     id: "p2",

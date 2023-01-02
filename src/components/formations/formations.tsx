@@ -13,13 +13,13 @@ export default component$(() => {
     {
       diplome: 'Baccalauréat général scientifique',
       date: '2017-2020',
-      img: 'lycee.jpg',
+      img: 'formations/lycee.jpg',
       location: 'Lycée Marguerite de Flandre'
     },
     {
       diplome: 'BUT Informatique',
-      date: '2021-2024',
-      img: 'iut.jpg',
+      date: 'Depuis 2021',
+      img: 'formations/iut.jpg',
       location: 'IUT de Lille, site de Villeneuve d\'Ascq'
     }
   ];

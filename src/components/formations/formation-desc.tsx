@@ -11,9 +11,9 @@ export default component$((props: { info: Formation }) => {
         <circle cx="5" cy="5" r="5" fill="white" />
         <line x1="5" y1="5" x2="5" y2="100%" class="stroke-white stroke-[3]" />
       </svg>
-      <h2 class="text-2xl">{props.info.date}</h2>
+      <h2 class="text-2xl">{props.info.diplome}</h2>
       <p>
-        {props.info.diplome}
+      {props.info.date}
         <br />
         {props.info.location}
       </p>
