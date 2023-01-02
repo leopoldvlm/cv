@@ -21,7 +21,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Mon CV',
+  title: 'CV de Léopold Varlamoff',
   meta: [
     {
       name: 'description',
