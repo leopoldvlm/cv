@@ -1,4 +1,4 @@
-import { staticAdaptor } from '@builder.io/qwik-city/adaptors/static/vite';
+import { expressAdaptor } from '@builder.io/qwik-city/adaptors/express/vite';
 import { extendConfig } from '@builder.io/qwik-city/vite';
 import baseConfig from '../../vite.config';
 
@@ -7,12 +7,12 @@ export default extendConfig(baseConfig, () => {
     build: {
       ssr: true,
       rollupOptions: {
-        input: ['@qwik-city-plan'],
+        input: ['src/entry.express.tsx', '@qwik-city-plan'],
       },
     },
     plugins: [
-      staticAdaptor({
-        origin: 'https://leopoldvlm.fr/cv',
+      expressAdaptor({
+        staticGenerate: true,
       }),
     ],
   };
