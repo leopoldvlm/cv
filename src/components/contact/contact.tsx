@@ -21,7 +21,7 @@ export default component$(() => {
     {
       name: 'Discord',
       img: 'contact/discord.svg',
-      link: '',
+      link: 'https://discord.com/users/322008741149016065',
     },
     {
       name: 'Github',

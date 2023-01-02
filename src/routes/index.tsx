@@ -5,6 +5,7 @@ import About from '~/components/about/about';
 import Formations from '~/components/formations/formations';
 import Projects from '~/components/projects/projects';
 import Contact from '~/components/contact/contact';
+import Skills from '~/components/skills/skills';
 
 export default component$(() => {
   return (
@@ -13,6 +14,7 @@ export default component$(() => {
       <About />
       <Formations />
       <Projects />
+      <Skills />
       <Contact />
     </>
   );
