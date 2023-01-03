@@ -7,12 +7,6 @@ WORKDIR /app
 # Copy the application files to the working directory
 COPY . /app
 
-# Delete the node_modules folder if it exists
-RUN rm -rf node_modules
-
-# Delete dist and server folders if they exist
-RUN rm -rf dist server
-
 # Install the dependencies
 RUN npm install
 
