@@ -39,3 +39,9 @@
         @apply transition duration-300 bg-clip-text text-transparent bg-gradient-to-r from-sky-200 to-fuchsia-300;
     }
 }
+
+@layer components {
+    .cool-gradient {
+        @apply bg-gradient-to-r from-sky-200 to-fuchsia-300;
+    }
+}
