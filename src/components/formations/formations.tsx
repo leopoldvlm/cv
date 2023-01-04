@@ -25,7 +25,7 @@ export default component$(() => {
   ];
 
   return (
-    <section class="text-white h-screen snap-start pt-32" id="formations">
+    <section class="text-white h-screen  pt-32" id="formations">
       <div
         class={
           'h-[80vh] mx-auto overflow-hidden flex flex-col'

@@ -10,6 +10,11 @@
 @tailwind utilities;
 @tailwind components;
 
+* {
+    transition-duration: 300ms;
+    scroll-behavior: smooth;
+}
+
 /* For Webkit-based browsers (Chrome, Safari and Opera) */
 .scrollbar-hide::-webkit-scrollbar {
     display: none;

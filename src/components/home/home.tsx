@@ -2,19 +2,19 @@ import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
   return (
-    <section class="text-black h-screen snap-start pt-32" id="home">
+    <section class="text-black h-screen" id="home">
       <div
         class={
-          "bg-gradient-to-r from-[#a5f3fc] via-blue-300 to-blue-400 w-[90vw] h-[80vh] mx-auto mt-auto rounded-xl flex flex-col"
+          "bg-gradient-to-b md:bg-gradient-to-r from-[#a5f3fc] via-blue-300 to-blue-400 w-full h-full flex flex-col"
         }>
-        <p class={'text-5xl p-20'}>
+        <p class={'text-2xl md:text-5xl p-14 md:p-20 mt-14'}>
           Bonjour!
-          <br /> Je m'appelle Léopold et je suis en 2<sup>ème</sup> année de BUT
+          <br /> Je m'appelle Léopold et je suis en 2ème année de BUT
           informatique.
           <br />
           Bienvenue sur mon CV numérique!
         </p>
-        <a href="#about" class="inline-block w-fit h-fit mx-auto">
+        <a href="#about" class="inline-block w-fit h-fit m-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

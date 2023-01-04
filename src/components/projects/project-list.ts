@@ -12,8 +12,8 @@ export interface Project {
 }
 
 export enum RepoHost {
-  github = 'contact/github-black.svg',
-  gitlab = 'contact/gitlab-logo-600-black.svg',
+  github = 'projects/github-white.svg',
+  gitlab = 'projects/gitlab-white.svg',
 }
 
 export const projects: Array<Project> = [

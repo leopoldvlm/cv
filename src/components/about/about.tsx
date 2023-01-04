@@ -2,10 +2,10 @@ import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
   return (
-    <section class="text-black h-screen snap-start pt-32" id="about">
+    <section class="text-black h-screen pt-32" id="about">
       <div
         class={
-          " bg-gradient-to-r from-[#ffe4e6] to-[#d3f8ef] via-[#ffe4e6] w-[90vw] h-[80vh] mx-auto rounded-xl"
+          " bg-gradient-to-r from-[#ffe4e6] to-[#d3f8ef] via-[#ffe4e6] w-[90vw] h-[80vh] mx-auto rounded-xl overflow-hidden"
         }>
         <h2 class="text-5xl text-center py-8">A propos</h2>
         <p

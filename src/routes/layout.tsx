@@ -5,7 +5,10 @@ import { Footer } from '~/components/footer/footer';
 export default component$(() => {
   return (
     <>
-      <main class="snap-mandatory snap-y h-screen overflow-y-scroll overflow-x-hidden scroll-smooth duration-300 font-noto bg-neutral-900 scrollbar-hide">
+      <main
+        class={
+          'overflow-x-hidden font-noto bg-neutral-900 scrollbar-hide'
+        }>
         <Header />
         <Slot />
         <Footer />

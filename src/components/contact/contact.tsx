@@ -14,7 +14,7 @@ export default component$(() => {
       link: 'mailto:leopold.varlamoff.etu@univ-lille.fr',
     },
     {
-      name: 'Linkedin',
+      name: 'LinkedIn',
       img: 'contact/linkedin.svg',
       link: 'https://www.linkedin.com/in/leopold-varlamoff/',
     },
@@ -25,26 +25,26 @@ export default component$(() => {
     },
     {
       name: 'Github',
-      img: 'contact/github-black.svg',
+      img: 'projects/github-white.svg',
       link: 'https://github.com/leopoldvlm/',
     },
     {
       name: 'Gitlab',
-      img: 'contact/gitlab-logo-600-black.svg',
+      img: 'projects/gitlab-white.svg',
       link: 'https://gitlab.univ-lille.fr/leopold.varlamoff.etu',
     },
   ];
 
   return (
-    <section class="text-white h-screen snap-start pt-32" id="contact">
+    <section class="text-white h-screen pt-32" id="contact">
       <div class={'h-[80vh] mx-auto overflow-hidden flex flex-col'}>
         <h2 class="text-5xl text-center py-8">Contact</h2>
-        <p class="text-center px-10">
+        <p class="text-center text-sm md:text-base px-10">
           N'hésitez pas à me contacter pour plus de renseignements!
           <br /> Et si vous rencontrez un problème ou avez une idée sur un de
           mes projets, une issue ou une PR est toujours bienvenue!😄
         </p>
-        <div class="flex flex-row flex-wrap justify-evenly mt-20 h-full">
+        <div class="mx-10 md:mx-20 h-fit grid gap-3 md:gap-8 grid-cols-3 xl:grid-cols-5 my-auto">
           {medium.map(data => (
             <Contact contact={data} key={data.name} />
           ))}
@@ -56,15 +56,17 @@ export default component$(() => {
 
 export const Contact = component$((props: { contact: ContactMedium }) => {
   return (
-    <div class=" text-black bg-gradient-to-r from-sky-400 to-cyan-300 aspect-square w-[12.25%] h-1/2 p-8 rounded-lg grid place-items-center">
-      <a href={props.contact.link} class=" w-full h-fit" target="_blank" referrerPolicy="same-origin">
-        <h2 class="text-center">{`${props.contact.name} :`}</h2>
-        <img
-          src={props.contact.img}
-          alt={`pic for ${props.contact.name} contact`}
-          class="h-20 w-20 m-auto mt-3"
-        />
-      </a>
-    </div>
+    <a
+      target="_blank"
+      referrerPolicy="same-origin"
+      href={props.contact.link}
+      class="text-white bg-neutral-800 border border-black rounded-lg place-items-center py-5 min-w-min">
+      <h2 class="text-center">{`${props.contact.name}`}</h2>
+      <img
+        src={props.contact.img}
+        alt={`pic for ${props.contact.name} contact`}
+        class="h-5 w-5 md:h-10 md:w-10 lg:h-20 lg:w-20 m-auto mt-3"
+      />
+    </a>
   );
 });

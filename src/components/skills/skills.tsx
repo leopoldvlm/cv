@@ -3,7 +3,7 @@ import { devSkills, sysSkills, otherSkills, Skill } from './skills-lists';
 
 export default component$(() => {
   return (
-    <section class="text-black h-screen snap-start pt-32" id="competences">
+    <section class="text-black h-screen  pt-32" id="competences">
       <h2 class="inline-block h-[10vh] w-full text-center text-5xl text-white">
         Compétences
       </h2>

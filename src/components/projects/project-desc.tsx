@@ -5,7 +5,7 @@ export default component$((props: { project: Project }) => {
   return (
     <div
       id={props.project.id}
-      class="shrink-0 my-auto bg-gradient-to-r from-blue-200 to-cyan-200 rounded-xl text-black mx-96 w-1/2 h-[87.5%] snap-center p-8 flex flex-row">
+      class="shrink-0 my-auto text-white bg-neutral-800 border border-black rounded-lg mx-96 w-5/6 md:w-1/2 h-[87.5%] snap-center p-8 flex flex-row">
       <a href={`#${props.project.previous}`} class="inline-block h-fit">
         <svg
           xmlns="http://www.w3.org/2000/svg"
