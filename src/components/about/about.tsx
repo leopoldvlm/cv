@@ -6,7 +6,7 @@ export default component$(() => {
       <div class="flex flex-row flex-wrap-reverse w-fit justify-center">
         <div
           class={
-            'w-2/3 h-fit mx-auto md:mr-5 md:ml-0 rounded-xl text-white'
+            'w-3/4 lg:2/3 h-fit mx-auto md:mr-5 md:ml-0 rounded-xl text-white'
           }>
           <h2 class="text-5xl text-center mt-8">A propos</h2>
           <p
@@ -34,7 +34,7 @@ export default component$(() => {
           </p>
         </div>
         <div class="grid place-items-center">
-          <div class="w-52 lg:w-80 h-fit p-3 cool-gradient rounded-full my-auto">
+          <div class="w-52 sm:w-80 h-fit p-3 cool-gradient rounded-full my-auto">
             <img
               id="magueule"
               class="aspect-square rounded-full"

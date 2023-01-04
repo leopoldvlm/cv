@@ -67,7 +67,7 @@ export const otherSkills: Array<Skill> = [
     img:'competences/office.svg',
   },
   {
-    name:'Analyse fonctionnelle',
+    name:'Analyse',
     img:'competences/analysis.svg',
   },
 ]

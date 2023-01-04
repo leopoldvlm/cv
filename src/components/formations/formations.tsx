@@ -25,10 +25,10 @@ export default component$(() => {
   ];
 
   return (
-    <section class="text-white h-screen  pt-32" id="formations">
+    <section class="text-white h-fit pt-32 pb-16 md:py-32" id="formations">
       <div
         class={
-          'h-[80vh] mx-auto overflow-hidden flex flex-col'
+          'h-fit mx-auto overflow-hidden flex flex-col'
         }>
         <h2 class="text-5xl text-center py-8">Formations</h2>
         <svg height="30" width="100%" class="mt-12">
@@ -40,7 +40,7 @@ export default component$(() => {
             class="stroke-white stroke-[30]"
           />
         </svg>
-        <div class="flex flex-row justify-evenly h-full">
+        <div class="flex flex-row justify-evenly h-fit">
           {formations.map(data => (
             <FormationDesc info={data} key={data.diplome} />
           ))}

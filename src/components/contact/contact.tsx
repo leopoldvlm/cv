@@ -36,15 +36,15 @@ export default component$(() => {
   ];
 
   return (
-    <section class="text-white h-screen pt-32" id="contact">
-      <div class={'h-[80vh] mx-auto overflow-hidden flex flex-col'}>
+    <section class="text-white min-h-screen h-fit pt-32" id="contact">
+      <div class={'h-fit mx-auto overflow-hidden flex flex-col'}>
         <h2 class="text-5xl text-center py-8">Contact</h2>
-        <p class="text-center text-sm md:text-base px-10">
+        <p class="text-center text-sm md:text-base p-10">
           N'hésitez pas à me contacter pour plus de renseignements!
           <br /> Et si vous rencontrez un problème ou avez une idée sur un de
           mes projets, une issue ou une PR est toujours bienvenue!😄
         </p>
-        <div class="mx-10 md:mx-20 h-fit grid gap-3 md:gap-8 grid-cols-3 xl:grid-cols-5 my-auto">
+        <div class="mx-10 md:mx-20 h-fit grid gap-3 md:gap-8 grid-cols-1 xs:grid-cols-3 xl:grid-cols-5 my-auto">
           {medium.map(data => (
             <Contact contact={data} key={data.name} />
           ))}
@@ -65,7 +65,7 @@ export const Contact = component$((props: { contact: ContactMedium }) => {
       <img
         src={props.contact.img}
         alt={`pic for ${props.contact.name} contact`}
-        class="h-5 w-5 md:h-10 md:w-10 lg:h-20 lg:w-20 m-auto mt-3"
+        class="aspect-square h-5 md:h-10 lg:h-14 m-auto mt-3"
       />
     </a>
   );

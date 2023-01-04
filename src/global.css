@@ -36,11 +36,13 @@
 
 @layer components {
     .regular-link:hover {
-        @apply transition duration-300 bg-clip-text text-transparent bg-gradient-to-r from-sky-200 to-fuchsia-300;
+        @apply transition cool-text;
     }
-}
 
-@layer components {
+    .cool-text {
+        @apply bg-clip-text text-transparent cool-gradient
+    }
+
     .cool-gradient {
         @apply bg-gradient-to-r from-sky-200 to-fuchsia-300;
     }
