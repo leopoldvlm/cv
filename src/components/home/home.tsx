@@ -2,17 +2,15 @@ import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
   return (
-    <section class="text-black h-fit min-h-screen flex" id="home">
-      <div
-        class={
-          "bg-gradient-to-b md:bg-gradient-to-r from-[#a5f3fc] via-blue-300 to-blue-400 w-full flex flex-col"
-        }>
-        <p class={'text-2xl md:text-5xl p-14 md:p-20 mt-14'}>
+    <section class="text-white h-fit min-h-screen flex" id="home">
+      <div class={'w-full flex flex-col'}>
+        <p class={'text-2xl md:leading-relaxed md:text-5xl p-14 md:p-20 mt-14'}>
           Bonjour!
           <br /> Je m'appelle Léopold et je suis en 2ème année de BUT
           informatique.
           <br />
-          Bienvenue sur mon CV numérique!
+          Bienvenue sur mon{' '}
+          <span class="cool-text font-semibold">CV numérique!</span>
         </p>
         <a href="#about" class="inline-block w-fit h-fit m-auto">
           <svg

@@ -29,13 +29,17 @@ export const SkillCard = component$(
           {props.skills.map(skill => (
             <div
               key={skill.name}
-              class="w-5 h-5 m-2 xs:m-0 xs:w-20 xs:h-20 xl:w-52 xl:h-52">
-              <h2 class="hidden xs:block text-md md:text-xl text-center">{skill.name}</h2>
-              <img
-                src={skill.img}
-                alt={`skill ${skill.name} image`}
-                class="w-5 h-5 xs:w-10 xs:h-10 mx-auto"
-              />
+              class="w-5 h-5 m-2 xs:m-0 xs:w-20 xs:h-20 xl:w-52 xl:h-52 grid place-items-center">
+              <div>
+                <h2 class="hidden xs:block text-md md:text-xl text-center">
+                  {skill.name}
+                </h2>
+                <img
+                  src={skill.img}
+                  alt={`skill ${skill.name} image`}
+                  class="w-5 h-5 xs:w-10 xs:h-10 mx-auto"
+                />
+              </div>
             </div>
           ))}
         </div>
