@@ -24,12 +24,14 @@ export default component$(() => {
   });
 
   return (
-    <header 
-      class={`h-10 md:h-16 w-full hidden sm:grid place-items-center ${store.scrolled ? ('text-white bg-transparent backdrop-blur bg-opacity-0') : ('text-white bg-neutral-900')} border-b border-b-slate-400  fixed`}
+    <header
+      class={`h-10 md:h-16 w-full hidden sm:grid place-items-center z-50 ${
+        store.scrolled
+          ? 'text-white bg-transparent backdrop-blur bg-opacity-0'
+          : 'text-white bg-neutral-900'
+      } border-b border-b-slate-400  fixed`}
       document:onScroll$={handleScroll$}
-      onClick$={handleScroll$}
-      >
-
+      onClick$={handleScroll$}>
       <div class="lg:p-3 flex flex-row w-full">
         <nav class="flex flex-row justify-evenly w-full md:w-[70%] lg:w-[60%] ml-auto">
           {links.map(data => (

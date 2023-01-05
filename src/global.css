@@ -15,17 +15,6 @@
     scroll-behavior: smooth;
 }
 
-/* For Webkit-based browsers (Chrome, Safari and Opera) */
-.scrollbar-hide::-webkit-scrollbar {
-    display: none;
-}
-
-/* For IE, Edge and Firefox */
-.scrollbar-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-
 .fadein {
     @apply opacity-0 duration-[1s] ease-in transition-opacity motion-reduce:transition-none
 }

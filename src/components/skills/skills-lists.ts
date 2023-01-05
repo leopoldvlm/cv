@@ -40,34 +40,42 @@ export const devSkills: Array<Skill> = [
 
 export const sysSkills: Array<Skill> = [
   {
-    name:'Unix',
-    img:'competences/unix.svg',
+    name: 'Unix',
+    img: 'competences/unix.svg',
   },
   {
-    name:'bash',
-    img:'competences/bash.svg',
+    name: 'bash',
+    img: 'competences/bash.svg',
   },
   {
-    name:'C',
-    img:'competences/c.svg',
+    name: 'C',
+    img: 'competences/c.svg',
   },
-]
+];
 
 export const otherSkills: Array<Skill> = [
   {
-    name:'Git',
-    img:'competences/git.svg',
+    name: 'Git',
+    img: 'competences/git.svg',
   },
   {
-    name:"Agile",
-    img:'competences/agile.svg',
+    name: 'Agile',
+    img: 'competences/agile.svg',
   },
   {
-    name:'MS Office',
-    img:'competences/office.svg',
+    name: 'MS Office',
+    img: 'competences/office.svg',
   },
   {
-    name:'Analyse',
-    img:'competences/analysis.svg',
+    name: 'Analyse',
+    img: 'competences/analysis.svg',
   },
-]
+  {
+    name: 'VSCode',
+    img: 'competences/vscode.svg',
+  },
+  {
+    name: 'IntelliJ',
+    img: 'competences/intellij.svg',
+  },
+];
