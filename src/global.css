@@ -10,15 +10,9 @@
 @tailwind utilities;
 @tailwind components;
 
-/* For Webkit-based browsers (Chrome, Safari and Opera) */
-.scrollbar-hide::-webkit-scrollbar {
-    display: none;
-}
-
-/* For IE, Edge and Firefox */
-.scrollbar-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+* {
+    transition-duration: 300ms;
+    scroll-behavior: smooth;
 }
 
 .fadein {
@@ -31,6 +25,14 @@
 
 @layer components {
     .regular-link:hover {
-        @apply transition duration-300 bg-clip-text text-transparent bg-gradient-to-r from-sky-200 to-fuchsia-300;
+        @apply transition cool-text;
+    }
+
+    .cool-text {
+        @apply bg-clip-text text-transparent cool-gradient
+    }
+
+    .cool-gradient {
+        @apply bg-gradient-to-r from-sky-200 to-fuchsia-300;
     }
 }

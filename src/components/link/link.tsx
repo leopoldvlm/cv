@@ -12,7 +12,7 @@ export default component$((props: LinkProps) => {
       href={props.href}
       target={props.newTab ? '_blank' : '_self'}
       referrerPolicy="same-origin"
-      class="bg-gradient-to-r from-blue-200 via-cyan-100 to-cyan-200 bg-no-repeat bg-bottom bg-[length:100%_0px] hover:bg-[length:100%_100%] hover:text-black transition-[background-size] p-2">
+      class="min-w-min bg-gradient-to-r from-blue-200 via-cyan-100 to-cyan-200 bg-no-repeat bg-bottom bg-[length:100%_0px] hover:bg-[length:100%_100%] hover:text-black transition-[background-size] p-2">
       {props.text}
     </a>
   );
