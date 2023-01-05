@@ -25,7 +25,7 @@ export default component$(() => {
 
   return (
     <header
-      class={`h-10 md:h-16 w-full hidden sm:grid place-items-center z-50 ${
+      class={`h-10 md:h-16 w-full hidden sm:grid place-items-center z-50 font-noto ${
         store.scrolled
           ? 'text-white bg-transparent backdrop-blur bg-opacity-0'
           : 'text-white bg-neutral-900'
