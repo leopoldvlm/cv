@@ -17,10 +17,6 @@ export default component$(() => {
             année de BUT informatique à l'IUT de Lille, site de Villeneuve
             d'Ascq.
             <br />
-            J'ai décidé de m'orienter vers le parcours "développement et
-            conception d'application" car le développement est ce qui
-            m'intéresse le plus dans l'informatique.
-            <br />
             Je suis à la recherche d'un stage de développement, idéalement en
             web backend ou frontend, qui est un domaine qui m'intéresse
             particulièrement.

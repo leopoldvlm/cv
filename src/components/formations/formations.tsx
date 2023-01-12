@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import FormationDesc from './formation-desc';
+import FormationCard from './formation-card';
 
 export interface Formation {
   diplome: string;
@@ -39,7 +39,7 @@ export default component$(() => {
         </svg>
         <div class="flex flex-row justify-evenly h-fit">
           {formations.map(data => (
-            <FormationDesc info={data} key={data.diplome} />
+            <FormationCard info={data} key={data.diplome} />
           ))}
         </div>
       </div>
