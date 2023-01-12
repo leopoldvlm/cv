@@ -15,7 +15,7 @@ export default component$(() => {
             }>
             Je m'appelle Léopold Varlamoff, et je suis actuellement en deuxième
             année de BUT informatique à l'IUT de Lille, site de Villeneuve
-            d'Ascq.
+            d'Ascq. Je suis la parcours "développement et réalisation d'application".
             <br />
             Je suis à la recherche d'un stage de développement, idéalement en
             web backend ou frontend, qui est un domaine qui m'intéresse
