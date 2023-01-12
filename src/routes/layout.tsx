@@ -8,8 +8,8 @@ export default component$(() => {
       <Header />
       <main class={'overflow-x-hidden font-noto bg-neutral-900'}>
         <Slot />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 });
