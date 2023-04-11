@@ -54,4 +54,25 @@ export const projects: Array<Project> = [
     link: 'https://github.com/leopoldvlm/website',
     svg: RepoHost.github,
   },
+  {
+    name: 'API REST de Pizza',
+    date: 'Février 2023',
+    language: 'Java (EE)',
+    description:
+      "Réalisation d'une API REST pour une pizzaria. Utilisation d'un schéma de base de données que nous avons fait nous même, puis utilisation de l'API servlet et JDBC de Java pour l'interroger. Implémentation des méthodes HTTP les plus utilisées GET, POST, PATCH, PUT, DELETE.",
+    pic: '',
+    link: 'https://gitlab.univ-lille.fr/alexandre.herssens.etu/pizzaland',
+    svg: RepoHost.gitlab
+  },
+  {
+    name: 'Jeu agar.io',
+    date: 'Avril 2023',
+    language: 'Typescript',
+    description:
+      "En s'inspirant du jeu agar.io, nous avons fait notre propre version nommée 'agar-agar.io'. Nous avons utilisé Typescript et la librairie socket.io pour gérer les connexions. L'application est également testée grâce a Jest. L'affichage est géré par un canvas qui est mis à jour en temps réel avec la position des autres éléments de la carte.",
+    pic: '',
+    link: 'https://gitlab.univ-lille.fr/alexandre.herssens.etu/agar-agar.io',
+    svg: RepoHost.gitlab
+  }
+
 ];
