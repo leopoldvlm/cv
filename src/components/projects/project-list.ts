@@ -59,8 +59,8 @@ export const projects: Array<Project> = [
     date: 'Février 2023',
     language: 'Java (EE)',
     description:
-      "Réalisation d'une API REST pour une pizzaria. Utilisation d'un schéma de base de données que nous avons fait nous même, puis utilisation de l'API servlet et JDBC de Java pour l'interroger. Implémentation des méthodes HTTP les plus utilisées GET, POST, PATCH, PUT, DELETE.",
-    pic: '',
+      "Réalisation d'une API REST pour une pizzaria. Utilisation d'un schéma de base de données que nous avons fait nous même, puis utilisation de l'API servlet et JDBC de Java pour l'interroger. Implémentation des méthodes HTTP les plus utilisées GET, POST, PATCH, PUT, DELETE. L'API est complètement documentée sur Postman.",
+    pic: 'projects/pizza.png',
     link: 'https://gitlab.univ-lille.fr/alexandre.herssens.etu/pizzaland',
     svg: RepoHost.gitlab
   },
@@ -69,8 +69,8 @@ export const projects: Array<Project> = [
     date: 'Avril 2023',
     language: 'Typescript',
     description:
-      "En s'inspirant du jeu agar.io, nous avons fait notre propre version nommée 'agar-agar.io'. Nous avons utilisé Typescript et la librairie socket.io pour gérer les connexions. L'application est également testée grâce a Jest. L'affichage est géré par un canvas qui est mis à jour en temps réel avec la position des autres éléments de la carte.",
-    pic: '',
+      "En s'inspirant du jeu agar.io, nous avons fait notre propre version nommée 'agar-agar.io'. Nous avons utilisé Typescript et la librairie socket.io pour gérer les connexions. L'application est également testée grâce à Jest. L'affichage est géré par un canvas qui est mis à jour en temps réel avec la position des autres éléments de la carte.",
+    pic: 'projects/agar.png',
     link: 'https://gitlab.univ-lille.fr/alexandre.herssens.etu/agar-agar.io',
     svg: RepoHost.gitlab
   }
